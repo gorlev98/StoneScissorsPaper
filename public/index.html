@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Site </title>
+    <link rel="stylesheet" type="text/css" href="cssFile.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css"
+          integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <script src="jsFile.js"></script>
+</head>
+<body>
+<div class="All">
+    <div class="card text-white bg-danger mb-3"><h2>Stone-Scissors-Paper Game</h2></div>
+    <div class="gameInfo">
+        <div class="card text-white bg-success mb-3">
+            <div><h3>Common Info</h3></div>
+            <div class="Info">This is a hash of robot answer(next game)</div>
+            <div class="Answer" id='robo_answer'>-</div>
+            <div class="InfoS">This is a hash of robot answer(prev game)</div>
+            <div class="AnswerS" id='robo_answer_prev'>-</div>
+            <div class="Comments">
+                <div class="Info2">This is computer key(always for previous game)</div>
+                <div class="Str1"id='key_string'>(That is a start)</div>
+                <div class="Info3">For approvement you can visit that site (algorithm - SHA256)</div>
+                <a href="https://www.freeformatter.com/hmac-generator.html">https://www.freeformatter.com/hmac-generator.html</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="GamerAnswer" >
+        <div class="card text-white bg-warning mb-3" id='poleConstruct'>
+            <div><h3>Your answer</h3></div>
+        </div>
+    </div>
+    <div class="GameResults">
+        <div class="card text-white bg-info mb-3" >
+            <div><h3>Results</h3></div>
+            <div class="RobotC">Robot:</div>
+            <div class="RobotCT"id='robotCT'>-</div>
+            <div class="GamerC">Gamer:</div>
+            <div class="GamerCT"id='gamerCT'>-</div>
+            <div class="Result"id='result'>-</div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var func_variable=lock();
+    func_variable.robotAnswer();
+</script>
+</html>

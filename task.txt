@@ -1,0 +1,1 @@
+Stone,Scissors,Paper,Lizard,Spock,Fox,Kick

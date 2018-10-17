@@ -1,0 +1,21 @@
+.base{}
+
+.gameInfo{
+    position:absolute;
+    top:50px;
+    width:600px;
+    height:300px;
+}
+.GamerAnswer{
+    position:absolute;
+    top:300px;
+    width:600px;
+    height:300px;
+}
+.GameResults{
+    position:absolute;
+    left:650px;
+    top:50px;
+    height: 600px;
+    width:600px;
+}
